@@ -1,6 +1,6 @@
 {
   "name": "@vladmandic/human",
-  "version": "3.1.2",
+  "version": "3.2.1",
   "description": "Human: AI-powered 3D Face Detection & Rotation Tracking, Face Description & Recognition, Body Pose Tracking, 3D Hand & Finger Tracking, Iris Analysis, Age & Gender & Emotion Prediction, Gesture Recognition",
   "sideEffects": false,
   "main": "dist/human.node.js",
@@ -8,16 +8,13 @@
   "browser": "dist/human.esm.js",
   "types": "types/human.d.ts",
   "exports": {
-    "types": "./types/human.d.ts",
-    "default": {
-      ".": "./dist/human.node.js",
-      "./node": "./dist/human.node.js",
-      "./node/wasm": "./dist/human.node-wasm.js",
-      "./node/gpu": "./dist/human.node-gpu.js",
-      "./client": "./dist/human.esm.js",
-      "./client/nobundle": "./dist/human/esm-nobundle.js",
-      "./script": "./dist/human.esm.js"
-    }
+    ".": "./dist/human.node.js",
+    "./node": "./dist/human.node.js",
+    "./node/wasm": "./dist/human.node-wasm.js",
+    "./node/gpu": "./dist/human.node-gpu.js",
+    "./client": "./dist/human.esm.js",
+    "./client/nobundle": "./dist/human/esm-nobundle.js",
+    "./script": "./dist/human.esm.js"
   },
   "author": "Vladimir Mandic <mandic00@live.com>",
   "bugs": {
