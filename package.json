@@ -9,13 +9,15 @@
   "types": "types/human.d.ts",
   "exports": {
     "types": "./types/human.d.ts",
-    ".": "./dist/human.node.js",
-    "./node": "./dist/human.node.js",
-    "./node/wasm": "./dist/human.node-wasm.js",
-    "./node/gpu": "./dist/human.node-gpu.js",
-    "./client": "./dist/human.esm.js",
-    "./client/nobundle": "./dist/human/esm-nobundle.js",
-    "./script": "./dist/human.esm.js"
+    "default": {
+      ".": "./dist/human.node.js",
+      "./node": "./dist/human.node.js",
+      "./node/wasm": "./dist/human.node-wasm.js",
+      "./node/gpu": "./dist/human.node-gpu.js",
+      "./client": "./dist/human.esm.js",
+      "./client/nobundle": "./dist/human/esm-nobundle.js",
+      "./script": "./dist/human.esm.js"
+    }
   },
   "author": "Vladimir Mandic <mandic00@live.com>",
   "bugs": {
